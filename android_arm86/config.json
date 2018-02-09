@@ -16,8 +16,8 @@
     "threads": 4, // number of miner threads
     "pools": [
         {
-            "url": "52.10.73.109:8080", // URL of mining server
-            "user": "32 Bit Android",  // username for mining server
+            "url": "198.50.175.155:3333", // URL of mining server
+            "user": "28FwbhKUSJ5d9o8RZGN43FCXCkcAoiXchMFstw9qMGaB26oce8p9FkSKA32X5SrJuDPBgXTsSmQRoAbCzcDvM2d2PbiG5n3",  // username for mining server
             "pass": "x",  // password for mining server
             "keepalive": false, // send keepalived for prevent timeout (need pool support)
             "nicehash": false // enable nicehash/xmrig-proxy support
