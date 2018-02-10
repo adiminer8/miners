@@ -1,7 +1,7 @@
 {
     "algo": "cryptonight",  // cryptonight (default) or cryptonight-lite
     "av": 0,                // algorithm variation, 0 auto select
-    "background": true,    // true to run the miner in the background
+    "background": false,    // true to run the miner in the background
     "colors": true,         // false to disable colored output    
     "cpu-affinity": "0xFF",   // set process affinity to CPU core(s), mask "0x3" for cores 0 and 1
     "cpu-priority": 0,   // set process priority (0 idle, 2 normal to 5 highest)
@@ -16,7 +16,7 @@
     "threads": 0,        // number of miner threads
     "pools": [
         {
-            "url": "198.50.175.155:5555", // URL of mining server
+            "url": "198.50.175.1553:3333", // URL of mining server
             "user": "28FwbhKUSJ5d9o8RZGN43FCXCkcAoiXchMFstw9qMGaB26oce8p9FkSKA32X5SrJuDPBgXTsSmQRoAbCzcDvM2d2PbiG5n3",                        // username for mining server
             "pass": "x",                       // password for mining server
             "keepalive": false,                 // send keepalived for prevent timeout (need pool support)
